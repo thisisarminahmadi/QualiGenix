@@ -299,7 +299,7 @@ def main():
     # Tab 1: Data Explorer
     with tab1:
         st.header("Pharmaceutical Manufacturing Data Explorer")
-        st.info("📊 **What this tab does:** Explore your historical manufacturing data with interactive visualizations, filters, and statistical analysis to understand quality trends and correlations.")
+        st.info("📊 **Use this tab to ** Explore historical manufacturing data with interactive visualizations, filters, and statistical analysis to understand quality trends and correlations.")
         
         if df is not None:
             col1, col2 = st.columns([2, 1])
@@ -433,7 +433,7 @@ def main():
     # Tab 2: AI Predictions - FIXED: Remove boxes from predictions
     with tab2:
         st.header("AI-Powered Quality Predictions")
-        st.info("🤖 **What this tab does:** Use trained ML models to predict future batch quality (dissolution, yield, impurities) based on your input parameters. Adjust sliders to see how different process conditions affect predicted outcomes.")
+        st.info("🤖 **Just for Demo, many features set to default!** Use trained ML models to predict future batch quality (dissolution, yield, impurities) based on input parameters. Adjust sliders to see how different process conditions affect predicted outcomes.")
         
         if not models:
             st.warning("No trained models found. Please run Phase 2 first.")
@@ -595,7 +595,7 @@ def main():
     # Tab 3: GenAI Assistant (unchanged)
     with tab3:
         st.header("GenAI Manufacturing Assistant")
-        st.info("💬 **What this tab does:** Chat with an AI assistant that can answer questions about your manufacturing data, make predictions, and provide insights using natural language. Ask about trends, compare batches, or get recommendations.")
+        st.info("💬 **Use this tab to:** Chat with an AI assistant that can answer questions about manufacturing data, make predictions, and provide insights using natural language. Ask about trends, compare batches, or get recommendations.")
         
         if genai_agent is None:
             st.error("GenAI agent not available. Please check your OpenAI API key and model configuration.")
@@ -610,7 +610,7 @@ def main():
                     st.markdown(message["content"])
             
             # Chat input
-            if prompt := st.chat_input("Ask me about your manufacturing data, predictions, or process optimization..."):
+            if prompt := st.chat_input("Ask me about manufacturing data, predictions, or process optimization..."):
                 # Add user message
                 st.session_state.messages.append({"role": "user", "content": prompt})
                 with st.chat_message("user"):
@@ -653,7 +653,7 @@ def main():
     # Tab 4: Experiment Simulator (unchanged)
     with tab4:
         st.header("Future Experiment Simulator")
-        st.info("🔬 **What this tab does:** Simulate multiple experimental scenarios with different parameter combinations to predict outcomes before running actual experiments. Generate parameter ranges and see which combinations give the best predicted results.")
+        st.info("🔬 Simulate multiple experimental scenarios with different parameter combinations to predict outcomes before running actual experiments. Generate parameter ranges and see which combinations give the best predicted results.")
         
         col_sim1, col_sim2 = st.columns([1, 2])
         
@@ -782,7 +782,7 @@ def main():
     # Tab 5: Scenario Generator (unchanged)
     with tab5:
         st.header("AI-Powered Scenario Generator")
-        st.info("🎯 **What this tab does:** Let AI suggest optimal experimental parameters based on your quality targets. Set your desired outcomes (dissolution %, yield %, etc.) and get AI recommendations for process parameters that should achieve those targets.")
+        st.info("🎯 **Use this tab to ** Let AI suggest optimal experimental parameters based on your quality targets. Set your desired outcomes (dissolution %, yield %, etc.) and get AI recommendations for process parameters that should achieve those targets.")
         
         col_target1, col_target2 = st.columns(2)
         
@@ -903,7 +903,7 @@ def main():
     # Tab 6: ML Explorer - FIXED: Remove last plot
     with tab6:
         st.header("ML Model Performance Explorer")
-        st.info("📈 **What this tab does:** Analyze the performance of your trained ML models, view feature importance, compare model accuracy, and get recommendations on which models to use for different predictions.")
+        st.info("📈 **Use this tab to ** Analyze the performance of your trained ML models, view feature importance, compare model accuracy, and get recommendations on which models to use for different predictions.")
         
         if not models:
             st.warning("No trained models found. Please run Phase 2 first.")
