@@ -2,6 +2,8 @@
 
 QualiGenix is a lightweight decision-support demo for pharmaceutical manufacturing teams. It couples structured analytics (historical batch data + pretrained CatBoost/LightGBM models) with a hybrid RAG assistant that rewrites grounded answers using OpenAI's `gpt-5-mini`.
 
+> **Data provenance**: The demo dataset is derived from *“Big data collection in pharmaceutical manufacturing and its use for product quality predictions”* by Žagar & Mihelič (Scientific Data, 2022). DOI: [10.1038/s41597-022-01203-x](https://doi.org/10.1038/s41597-022-01203-x).
+
 ## Features
 - **Data explorer**: Filter and chart key quality metrics inside the Streamlit UI.
 - **ML predictions**: Serve pre-trained models stored in `data/processed/models/` for yield, dissolution and impurity forecasts.
