@@ -1,0 +1,33 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Environment & secrets
+.env
+.env.*
+*.env
+streamlit_secrets.toml
+.streamlit/secrets.toml
+
+# IDE / OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Model cache outputs (keep trained artifacts that ship with repo)
+catboost_info/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log

@@ -1,0 +1,61 @@
+target,model,feature,importance
+dissolution_av,LightGBM,batch,38.0
+dissolution_av,LightGBM,code,6.0
+dissolution_av,LightGBM,strength,0.0
+dissolution_av,LightGBM,size,0.0
+dissolution_av,LightGBM,lactose_batch,11.0
+dissolution_av,LightGBM,starch_batch,4.0
+dissolution_av,LightGBM,starch_water,7.0
+dissolution_av,LightGBM,tbl_min_thickness,3.0
+dissolution_av,LightGBM,tbl_max_thickness,1.0
+dissolution_av,LightGBM,fct_min_thickness,1.0
+dissolution_av,LightGBM,fct_max_thickness,1.0
+dissolution_av,LightGBM,tbl_min_weight,15.0
+dissolution_av,LightGBM,tbl_max_weight,1.0
+dissolution_av,LightGBM,fct_max_hardness,16.0
+dissolution_av,LightGBM,tbl_max_diameter,2.0
+dissolution_av,LightGBM,fct_max_diameter,2.0
+dissolution_av,LightGBM,tbl_tensile,16.0
+dissolution_av,LightGBM,fct_tensile,15.0
+dissolution_av,LightGBM,dissolution_min,61.0
+dissolution_av,LightGBM,tbl_speed_mean,39.0
+dissolution_av,LightGBM,main_CompForce_median,19.0
+dissolution_av,LightGBM,tbl_fill_mean,21.0
+dissolution_av,LightGBM,Startup_main_CompForce_mean,13.0
+dissolution_av,LightGBM,Startup_tbl_fill_mean,19.0
+dissolution_av,LightGBM,Drug release average (%),574.0
+dissolution_av,LightGBM,Drug release min (%),3.0
+dissolution_av,LightGBM,Batch Size (tablets),0.0
+dissolution_av,LightGBM,Normalisation factor,0.0
+dissolution_av,LightGBM,weight_consistency,2.0
+dissolution_av,LightGBM,normalized_yield,12.0
+dissolution_av,CatBoost,batch,1.1349081976790896
+dissolution_av,CatBoost,code,0.25973914460118186
+dissolution_av,CatBoost,strength,0.2230127305469132
+dissolution_av,CatBoost,size,0.1302103385774163
+dissolution_av,CatBoost,lactose_batch,0.8442129275621937
+dissolution_av,CatBoost,starch_batch,0.40119755729642725
+dissolution_av,CatBoost,starch_water,0.6385959759326401
+dissolution_av,CatBoost,tbl_min_thickness,0.8081417489502376
+dissolution_av,CatBoost,tbl_max_thickness,0.15705767165203913
+dissolution_av,CatBoost,fct_min_thickness,0.6636913064056584
+dissolution_av,CatBoost,fct_max_thickness,0.1754803848327422
+dissolution_av,CatBoost,tbl_min_weight,0.6379260262408762
+dissolution_av,CatBoost,tbl_max_weight,0.21174107237490344
+dissolution_av,CatBoost,fct_max_hardness,0.5362051047029203
+dissolution_av,CatBoost,tbl_max_diameter,0.30745880743875237
+dissolution_av,CatBoost,fct_max_diameter,0.30353180968697474
+dissolution_av,CatBoost,tbl_tensile,0.6232162506783328
+dissolution_av,CatBoost,fct_tensile,0.4277813847214528
+dissolution_av,CatBoost,dissolution_min,4.182508894225511
+dissolution_av,CatBoost,tbl_speed_mean,0.1623878385029456
+dissolution_av,CatBoost,main_CompForce_median,0.5302565848628921
+dissolution_av,CatBoost,tbl_fill_mean,0.27322304610057013
+dissolution_av,CatBoost,Startup_main_CompForce_mean,0.6493560157778432
+dissolution_av,CatBoost,Startup_tbl_fill_mean,0.6815724546189413
+dissolution_av,CatBoost,Drug release average (%),77.9939586424123
+dissolution_av,CatBoost,Drug release min (%),5.126231366809588
+dissolution_av,CatBoost,Batch Size (tablets),0.3277437892607656
+dissolution_av,CatBoost,Normalisation factor,0.3566467439316454
+dissolution_av,CatBoost,weight_consistency,0.17185809580834246
+dissolution_av,CatBoost,normalized_yield,1.0601480878079443

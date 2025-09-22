@@ -1,0 +1,40 @@
+# QualiGenix Configuration
+project:
+  name: "QualiGenix"
+  version: "1.0.0"
+  description: "GenAI-Powered Decision Intelligence Platform for Pharmaceutical Manufacturing"
+
+data:
+  raw_data_path: "data"
+  processed_data_path: "data/processed"
+  master_file: "data/processed/Master.csv"
+  plots_dir: "data/processed/plots"
+
+targets:
+  primary:
+    - dissolution_av
+    - dissolution_min
+    - batch_yield
+    - impurities_total
+  secondary:
+    - impurity_o
+    - impurity_l
+
+ml:
+  models:
+    - lightgbm
+    - catboost
+    - random_forest
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+
+genai:
+  model: "gpt-4"
+  temperature: 0.1
+  max_tokens: 1000
+
+streamlit:
+  port: 8501
+  theme: "light"
+  page_title: "QualiGenix Dashboard" 

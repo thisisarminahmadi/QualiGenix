@@ -1,0 +1,61 @@
+target,model,feature,importance
+impurity_o,LightGBM,batch,23.0
+impurity_o,LightGBM,code,18.0
+impurity_o,LightGBM,strength,1.0
+impurity_o,LightGBM,size,0.0
+impurity_o,LightGBM,api_code,6.0
+impurity_o,LightGBM,api_batch,56.0
+impurity_o,LightGBM,lactose_batch,9.0
+impurity_o,LightGBM,api_content,2.0
+impurity_o,LightGBM,starch_water,0.0
+impurity_o,LightGBM,tbl_min_thickness,3.0
+impurity_o,LightGBM,tbl_max_thickness,0.0
+impurity_o,LightGBM,fct_min_thickness,7.0
+impurity_o,LightGBM,fct_max_diameter,1.0
+impurity_o,LightGBM,fct_tensile,49.0
+impurity_o,LightGBM,dissolution_av,6.0
+impurity_o,LightGBM,impurities_total,10.0
+impurity_o,LightGBM,impurity_l,0.0
+impurity_o,LightGBM,tbl_speed_mean,6.0
+impurity_o,LightGBM,main_CompForce_median,1.0
+impurity_o,LightGBM,tbl_fill_mean,10.0
+impurity_o,LightGBM,stiffness_max,68.0
+impurity_o,LightGBM,stiffness_min,40.0
+impurity_o,LightGBM,ejection_mean,40.0
+impurity_o,LightGBM,Drug release average (%),0.0
+impurity_o,LightGBM,Total impurities,0.0
+impurity_o,LightGBM,Impurity O,128.0
+impurity_o,LightGBM,Batch Size (tablets),0.0
+impurity_o,LightGBM,Normalisation factor,0.0
+impurity_o,LightGBM,hardness_consistency,2.0
+impurity_o,LightGBM,weight_consistency,3.0
+impurity_o,CatBoost,batch,0.7097052934670576
+impurity_o,CatBoost,code,0.896887166712163
+impurity_o,CatBoost,strength,0.14185822937510884
+impurity_o,CatBoost,size,0.42754999251780296
+impurity_o,CatBoost,api_code,1.0576994184268507
+impurity_o,CatBoost,api_batch,0.9845679871691029
+impurity_o,CatBoost,lactose_batch,0.46989069172994813
+impurity_o,CatBoost,api_content,1.151348282728031
+impurity_o,CatBoost,starch_water,0.34344095649452727
+impurity_o,CatBoost,tbl_min_thickness,0.7576827660215112
+impurity_o,CatBoost,tbl_max_thickness,0.0187490725747358
+impurity_o,CatBoost,fct_min_thickness,0.39995082258953857
+impurity_o,CatBoost,fct_max_diameter,0.22952520654766875
+impurity_o,CatBoost,fct_tensile,0.8767350413435374
+impurity_o,CatBoost,dissolution_av,0.6170005535523461
+impurity_o,CatBoost,impurities_total,0.6962663179279075
+impurity_o,CatBoost,impurity_l,0.7189695101046385
+impurity_o,CatBoost,tbl_speed_mean,1.121087192977982
+impurity_o,CatBoost,main_CompForce_median,0.4777355456815557
+impurity_o,CatBoost,tbl_fill_mean,0.6296330678995712
+impurity_o,CatBoost,stiffness_max,0.35125941591015797
+impurity_o,CatBoost,stiffness_min,0.4104327329446369
+impurity_o,CatBoost,ejection_mean,0.9503396066201207
+impurity_o,CatBoost,Drug release average (%),1.213726106037826
+impurity_o,CatBoost,Total impurities,2.0408605711218164
+impurity_o,CatBoost,Impurity O,80.06904173355855
+impurity_o,CatBoost,Batch Size (tablets),0.4020413173927964
+impurity_o,CatBoost,Normalisation factor,0.6510321087954871
+impurity_o,CatBoost,hardness_consistency,0.7305280425368744
+impurity_o,CatBoost,weight_consistency,0.4544552492401555

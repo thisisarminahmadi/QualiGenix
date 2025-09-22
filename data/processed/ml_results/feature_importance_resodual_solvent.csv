@@ -1,0 +1,61 @@
+target,model,feature,importance
+resodual_solvent,CatBoost,batch,0.6323799934497888
+resodual_solvent,CatBoost,code,0.6371122802849185
+resodual_solvent,CatBoost,size,0.2789533084046781
+resodual_solvent,CatBoost,api_code,0.7794797972609001
+resodual_solvent,CatBoost,api_batch,1.175676620850565
+resodual_solvent,CatBoost,smcc_batch,0.380984110108718
+resodual_solvent,CatBoost,lactose_batch,0.930748483304196
+resodual_solvent,CatBoost,starch_batch,1.1401876473335948
+resodual_solvent,CatBoost,smcc_water,0.10751187628085979
+resodual_solvent,CatBoost,smcc_ps01,0.6432774061996595
+resodual_solvent,CatBoost,smcc_ps05,0.3780812049887455
+resodual_solvent,CatBoost,smcc_ps09,0.9324812375744669
+resodual_solvent,CatBoost,starch_water,0.9606173705255263
+resodual_solvent,CatBoost,tbl_min_thickness,0.5823500238643805
+resodual_solvent,CatBoost,fct_min_thickness,0.4842343743440901
+resodual_solvent,CatBoost,fct_max_thickness,0.24219229902857042
+resodual_solvent,CatBoost,tbl_min_hardness,0.9566103554268927
+resodual_solvent,CatBoost,tbl_max_hardness,0.2994451329159095
+resodual_solvent,CatBoost,fct_min_hardness,1.2857202587334515
+resodual_solvent,CatBoost,fct_max_hardness,0.21432796418264194
+resodual_solvent,CatBoost,fct_av_hardness,0.643858293494819
+resodual_solvent,CatBoost,tbl_max_diameter,0.276507680959036
+resodual_solvent,CatBoost,impurities_total,1.2160706817394469
+resodual_solvent,CatBoost,tbl_fill_mean,1.6549258002341312
+resodual_solvent,CatBoost,cyl_height_mean,0.37072371327624914
+resodual_solvent,CatBoost,Startup_tbl_fill_mean,0.7787774826367385
+resodual_solvent,CatBoost,Residual solvent,78.59689864771508
+resodual_solvent,CatBoost,Batch Size (tablets),0.6655780641384514
+resodual_solvent,CatBoost,Normalisation factor,1.1577564200109933
+resodual_solvent,CatBoost,normalized_yield,1.5965314707324707
+resodual_solvent,LightGBM,batch,261.0
+resodual_solvent,LightGBM,code,16.0
+resodual_solvent,LightGBM,size,4.0
+resodual_solvent,LightGBM,api_code,1.0
+resodual_solvent,LightGBM,api_batch,92.0
+resodual_solvent,LightGBM,smcc_batch,9.0
+resodual_solvent,LightGBM,lactose_batch,34.0
+resodual_solvent,LightGBM,starch_batch,20.0
+resodual_solvent,LightGBM,smcc_water,23.0
+resodual_solvent,LightGBM,smcc_ps01,47.0
+resodual_solvent,LightGBM,smcc_ps05,10.0
+resodual_solvent,LightGBM,smcc_ps09,23.0
+resodual_solvent,LightGBM,starch_water,22.0
+resodual_solvent,LightGBM,tbl_min_thickness,9.0
+resodual_solvent,LightGBM,fct_min_thickness,5.0
+resodual_solvent,LightGBM,fct_max_thickness,2.0
+resodual_solvent,LightGBM,tbl_min_hardness,33.0
+resodual_solvent,LightGBM,tbl_max_hardness,55.0
+resodual_solvent,LightGBM,fct_min_hardness,57.0
+resodual_solvent,LightGBM,fct_max_hardness,51.0
+resodual_solvent,LightGBM,fct_av_hardness,44.0
+resodual_solvent,LightGBM,tbl_max_diameter,2.0
+resodual_solvent,LightGBM,impurities_total,24.0
+resodual_solvent,LightGBM,tbl_fill_mean,72.0
+resodual_solvent,LightGBM,cyl_height_mean,83.0
+resodual_solvent,LightGBM,Startup_tbl_fill_mean,72.0
+resodual_solvent,LightGBM,Residual solvent,534.0
+resodual_solvent,LightGBM,Batch Size (tablets),1.0
+resodual_solvent,LightGBM,Normalisation factor,0.0
+resodual_solvent,LightGBM,normalized_yield,122.0

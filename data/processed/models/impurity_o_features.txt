@@ -1,0 +1,30 @@
+batch
+code
+size
+api_code
+api_batch
+smcc_batch
+lactose_batch
+starch_batch
+smcc_water
+smcc_ps01
+smcc_ps05
+smcc_ps09
+starch_water
+tbl_min_thickness
+fct_min_thickness
+fct_max_thickness
+tbl_min_hardness
+tbl_max_hardness
+fct_min_hardness
+fct_max_hardness
+fct_av_hardness
+tbl_max_diameter
+impurities_total
+tbl_fill_mean
+cyl_height_mean
+Startup_tbl_fill_mean
+Residual solvent
+Batch Size (tablets)
+Normalisation factor
+normalized_yield

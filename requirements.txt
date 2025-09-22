@@ -1,0 +1,25 @@
+# Core analytics
+pandas==2.2.2
+numpy==2.1.1
+scipy==1.13.1
+scikit-learn==1.5.1
+lightgbm==4.4.0
+catboost==1.2.5
+joblib==1.4.2
+tqdm==4.66.4
+
+# Visualisation & UI
+plotly==5.23.0
+matplotlib==3.9.1
+seaborn==0.13.2
+streamlit==1.38.0
+
+# GenAI / LangChain
+langchain==0.2.11
+langchain-openai==0.1.19
+langchain-community==0.2.10
+openai==1.41.0
+python-dotenv==1.0.1
+
+# Optional but useful for data export
+pyarrow==17.0.0

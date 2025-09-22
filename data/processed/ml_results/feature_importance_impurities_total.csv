@@ -1,0 +1,61 @@
+target,model,feature,importance
+impurities_total,CatBoost,batch,1.0708605817794492
+impurities_total,CatBoost,code,0.6893792160207642
+impurities_total,CatBoost,api_code,20.836451290096306
+impurities_total,CatBoost,api_batch,0.678190488312855
+impurities_total,CatBoost,smcc_batch,0.9850044236368147
+impurities_total,CatBoost,lactose_batch,0.36087490706693526
+impurities_total,CatBoost,starch_batch,0.7599158873257907
+impurities_total,CatBoost,api_content,0.5670089099576241
+impurities_total,CatBoost,lactose_sieve015,0.46237288720513037
+impurities_total,CatBoost,smcc_water,2.1025699486600558
+impurities_total,CatBoost,smcc_ps01,0.505116765067372
+impurities_total,CatBoost,smcc_ps05,0.6840816912909012
+impurities_total,CatBoost,smcc_ps09,0.15569030167900977
+impurities_total,CatBoost,starch_water,1.0980941446639174
+impurities_total,CatBoost,tbl_max_thickness,0.3850773008841348
+impurities_total,CatBoost,fct_min_thickness,0.38786226533366946
+impurities_total,CatBoost,fct_max_thickness,0.1516956326336946
+impurities_total,CatBoost,tbl_max_diameter,0.45758134895926994
+impurities_total,CatBoost,resodual_solvent,0.16011226878094714
+impurities_total,CatBoost,impurity_l,1.3586370700614065
+impurities_total,CatBoost,fom_mean,0.5003573521741959
+impurities_total,CatBoost,tbl_fill_mean,0.2255949485964359
+impurities_total,CatBoost,cyl_height_mean,1.4049657290520787
+impurities_total,CatBoost,stiffness_mean,1.076971882455533
+impurities_total,CatBoost,stiffness_max,0.7063090752255863
+impurities_total,CatBoost,ejection_mean,1.021710855808261
+impurities_total,CatBoost,Startup_tbl_fill_mean,0.18144075803272428
+impurities_total,CatBoost,Residual solvent,0.9755984906782221
+impurities_total,CatBoost,Total impurities,58.33643814920196
+impurities_total,CatBoost,Impurity L,1.7140354293589446
+impurities_total,LightGBM,batch,105.0
+impurities_total,LightGBM,code,4.0
+impurities_total,LightGBM,api_code,0.0
+impurities_total,LightGBM,api_batch,43.0
+impurities_total,LightGBM,smcc_batch,6.0
+impurities_total,LightGBM,lactose_batch,16.0
+impurities_total,LightGBM,starch_batch,13.0
+impurities_total,LightGBM,api_content,30.0
+impurities_total,LightGBM,lactose_sieve015,6.0
+impurities_total,LightGBM,smcc_water,14.0
+impurities_total,LightGBM,smcc_ps01,32.0
+impurities_total,LightGBM,smcc_ps05,6.0
+impurities_total,LightGBM,smcc_ps09,13.0
+impurities_total,LightGBM,starch_water,22.0
+impurities_total,LightGBM,tbl_max_thickness,8.0
+impurities_total,LightGBM,fct_min_thickness,8.0
+impurities_total,LightGBM,fct_max_thickness,1.0
+impurities_total,LightGBM,tbl_max_diameter,0.0
+impurities_total,LightGBM,resodual_solvent,16.0
+impurities_total,LightGBM,impurity_l,32.0
+impurities_total,LightGBM,fom_mean,23.0
+impurities_total,LightGBM,tbl_fill_mean,38.0
+impurities_total,LightGBM,cyl_height_mean,41.0
+impurities_total,LightGBM,stiffness_mean,36.0
+impurities_total,LightGBM,stiffness_max,25.0
+impurities_total,LightGBM,ejection_mean,30.0
+impurities_total,LightGBM,Startup_tbl_fill_mean,28.0
+impurities_total,LightGBM,Residual solvent,1.0
+impurities_total,LightGBM,Total impurities,528.0
+impurities_total,LightGBM,Impurity L,0.0
